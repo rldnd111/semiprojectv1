@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>레이아웃2</title>
+        <style>
+            .box {width: 100px; height: 100px;}
+            .sp1 {background: grey}
+            .sp2 {background: grey}
+            .sp3 {background: grey}
+            .sp4 {background: grey}
+            .sp5 {background: grey}
+            .sp6 {background: grey}
+
+            .ab1, .ab2, .ab3, .ab4, .ab5, .ab6 { position: relative}
+            .ab1 { top: 0px ; left: 0px}
+            .ab2 { top: -100px ; left: 120px}
+            .ab3 { top: -200px ; left: 240px}
+            .ab4 { top: -300px ; left: 360px}
+            .ab5 { top: -400px ; left: 480px}
+            .ab6 { top: -500px ; left: 600px}
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+        <header>
+            <h1>로고</h1>
+            <a href="#">Log in</a>
+            <a>or</a>
+            <a href="#">Create Account</a>
+        </header>
+        <nav>
+            <div><input type="text" name="search" id="search"></div>
+            <div><select name="category"><option>Category</option><option>Category2</option>
+                </select></div>
+            <div><button>SEARCH</button></div>
+        </nav>
+        <div id="container">
+            <table border="1">
+                <tr><th>All categories</th>
+                <tr><th>Category1</th></tr>
+                <tr><th>Category2</th></tr>
+                <tr><th>Category3</th></tr>
+                <tr><th>Category4</th></tr>
+                <tr><th>Category5</th></tr>
+                <tr><th>Category6</th></tr>
+            </table>
+
+            <form>
+            <p>Today`s Specials</p>
+            <div class="box sp1 ab1"></div>
+            <div class="box sp2 ab2"></div>
+            <div class="box sp3 ab3"></div>
+            <div class="box sp4 ab4"></div>
+            <div class="box sp5 ab5"></div>
+            <div class="box sp6 ab6"></div>
+
+
+            </form>
+
+
+            </div>
+            <footer>
+            <hr>
+            <ul>ABOUT US
+                <li>Company</li>
+                <li>News</li>
+                <li>Jobs</li>
+                <li>Policies</li>
+                <li>Contact</li>
+            </ul>
+                <ul>SOCIAL
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Try our app</li>
+            </ul>
+                <ul>SERVICE
+                <li>FAQ</li>
+                <li>Live Support</li>
+                <li>Site map</li>
+            </ul>
+            </footer>
+        </div>
+    </body>
+</html>
